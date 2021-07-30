@@ -1,0 +1,5 @@
+# run ansible-vsftpd.yml
+- include: ansible-vsftpd.yaml
+
+# run ftpclients.yml
+- include: ftpclient.yaml
